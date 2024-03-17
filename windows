@@ -706,7 +706,7 @@ nig = keyauthapp.user_data.username
 
 # Make sure you are using the same name that you used when uploading the image
 start_time=time.time()
-RPC.update(large_image="512ava", details="Login as " + nig, state="In Windows section")
+RPC.update(large_image="512ava", details="Login as " + nig, state="In Windows section", start=start_time)
 while True:
     os.system('cls')
     print(win)
