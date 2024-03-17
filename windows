@@ -708,6 +708,8 @@ nig = keyauthapp.user_data.username
 start_time=time.time()
 RPC.update(large_image="512ava", details="Login as " + nig, state="In Windows section", start=start_time)
 while True:
+    start_time=time.time()
+    RPC.update(large_image="512ava", details="Login as " + nig, state="In Windows section", start=start_time)
     os.system('cls')
     print(win)
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
