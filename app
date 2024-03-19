@@ -662,7 +662,7 @@ try:
         keyauthapp.login(authuser,authpass)
 except Exception as e:
     print(e)
-banner = f"""                                      Welcome to 
+banner = f"""                                   Welcome to big database about Windows app/iso
 
  ██████╗██╗   ██╗█████╗███╗   ██╗██████╗██████╗ █████╗██╗   ████╗   ██╗    ██╗     ██████╗ █████╗██████╗█████████████╗ 
 ██╔═══████║   ████╔══██████╗  ████╔════╝██╔══████╔══██╚██╗ ██╔╚██╗ ██╔╝    ██║    ██╔═══████╔══████╔══████╔════██╔══██╗
