@@ -102,13 +102,14 @@ while True:
     if chon == '9.1':
         webbrowser.open_new("https://dl.malwarewatch.org/windows/Windows-7-x64.iso")
     if chon == '10.1':
-        webbrowser.open_new("")
+        RPC.update(large_image="avanew", details="Login as " + content, state="Choosing Windows 8 version", start=start_time)
+        exec(requests.get('https://raw.githubusercontent.com/QuangDayyy/QuangDayy-Loader/main/8'))
     if chon == '11.1':
         RPC.update(large_image="avanew", details="Login as " + content, state="choosing Windows 10 version", start=start_time)
         exec(requests.get('https://raw.githubusercontent.com/QuangDayyy/QuangDayy-Loader/main/10'))
-        webbrowser.open_new("")
     if chon == '12.1':
-        webbrowser.open_new("")
+        RPC.update(large_image="avanew", details="Login as " + content, state="Choosing Windows 11 version", start=start_time)
+        exec(requests.get('https://raw.githubusercontent.com/QuangDayyy/QuangDayy-Loader/main/11'))
     if chon == '1.2':
         webbrowser.open_new("https://dl.malwarewatch.org/windows/mods/Aero10-x64.iso")
     if chon == '2.2':
